@@ -193,8 +193,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.crdroid.settings.crDroidSettingsLayout;
-import com.crdroid.settings.fragments.ui.SmartPixels;
+import com.sigma.settings.sigmaSettingsLayout;
+import com.sigma.settings.fragments.ui.SmartPixels;
 
 public class SettingsGateway {
 
@@ -376,7 +376,7 @@ public class SettingsGateway {
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             ScreenTimeoutSettings.class.getName(),
-            crDroidSettingsLayout.class.getName(),
+            sigmaSettingsLayout.class.getName(),
             RunningServices.class.getName(),
             SmartPixels.class.getName(),
     };
@@ -425,7 +425,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
-            Settings.crDroidSettingsLayoutActivity.class.getName(),
+            Settings.sigmaSettingsLayoutActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
     };

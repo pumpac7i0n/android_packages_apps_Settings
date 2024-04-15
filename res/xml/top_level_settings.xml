@@ -186,13 +186,13 @@
         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
-        android:fragment="com.crdroid.settings.crDroidSettingsLayout"
+        android:fragment="com.sigma.settings.sigmaSettingsLayout"
         android:icon="@drawable/ic_settings_cogs"
-        android:key="top_level_crdroid"
+        android:key="top_level_sigma"
         android:order="9"
-        android:title="@string/crdroid_settings_title"
-        android:summary="@string/crdroid_settings_summary"
-        settings:controller="com.crdroid.settings.TopLevelSettingsPreferenceController"/>
+        android:title="@string/sigma_settings_title"
+        android:summary="@string/sigma_settings_summary"
+        settings:controller="com.sigma.settings.TopLevelSettingsPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.system.SystemDashboardFragment"

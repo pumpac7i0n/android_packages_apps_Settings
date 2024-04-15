@@ -1,2 +1,2 @@
-# crDroidSettings
--keep class com.crdroid.settings.**
+# sigmaSettings
+-keep class com.sigma.settings.**
